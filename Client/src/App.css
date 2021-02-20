@@ -1,0 +1,103 @@
+h3 {
+  text-align: center;
+}
+
+.header ul {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header h2,
+li {
+  display: inline-block;
+  margin: 10px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.cart,
+.history {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-list,
+.history-items {
+  width: 80%;
+}
+.cart-items h4 {
+  margin: 10px;
+}
+
+.cart-items button {
+  margin: 10px;
+  float: right;
+}
+
+.list-items {
+  width: 30%;
+}
+.list-items,
+.cart-list,
+.history-items {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #dfdfdf;
+}
+
+label {
+  display: inline-block;
+}
+input {
+  display: block;
+}
+
+#name {
+  text-align: center;
+  position: relative;
+}
+.orderNow {
+  margin: 30px;
+}
+
+.addToCart,
+.remove {
+  margin: 2px;
+}
+
+.form {
+  width: 50%;
+  display: inline-block;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 2 px;
+}
+.form label {
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.form input {
+  width: 40%;
+  padding: 5px;
+  margin: 5px;
+
+  box-sizing: border-box;
+}
+
+.form button {
+  margin: 10px;
+}
+
+nav ul li {
+  text-decoration: none;
+}
